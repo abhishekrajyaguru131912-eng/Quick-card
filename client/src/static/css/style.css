@@ -1,0 +1,129 @@
+:root{
+    --primary : #131921;
+    --secondary : #232F3E;
+    --warning : #F3A847;
+    --info : #C5582D;
+}
+
+/* Global font */
+body {
+    font-family: Arial, sans-serif;
+    color: #0F1111;
+}
+
+/* Text styles */
+.bold-text{
+    font-weight: bold;
+}
+
+.medium-text{
+    font-weight: 500;
+}
+
+.normal-text{
+    font-weight: normal;
+}
+
+.extra-bold-text{
+    font-weight: 800;
+}
+
+.h3{
+    font-weight: 500;
+}
+
+/* Font sizes */
+.amz-fs-11{ font-size: 11px; }
+.amz-fs-12{ font-size: 12px; }
+.amz-fs-13{ font-size: 13px; }
+.amz-fs-14{ font-size: 14px; }
+
+/* Buttons */
+.amazon-btn{
+    outline: 0;
+    border-radius: 2px;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.amz-btn-primary{
+    background-color: #F3CB65;
+    border: 1px solid #A88734;
+}
+
+.amz-btn-primary:hover{
+    background-color:#F1C44A;
+}
+
+.amz-btn-secondary{
+    background-color: #F0F1F5;
+    border: 1px solid #A2A6AC;
+}
+
+.amz-btn-secondary:hover{
+    background-color:#E0E3E8;
+}
+
+.amz-btn-dark{
+    background-color: #2F3333;
+    color: white;
+    border: 1px solid #0F1111;
+}
+
+.amz-btn-dark:hover{
+    background-color:#0F1111;
+}
+
+/* Input */
+.amz-input{
+    width: 100%;
+    font-size: 13px;
+    outline: none;
+    height: 2rem;
+    padding : 0 0.5rem;
+}
+
+.amz-input:focus{
+    border: 2px solid var(--warning);
+}
+
+/* Labels */
+.amz-label{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Breadcrumb */
+.amz-breadcrumb{
+    font-size: 15px;
+}
+
+.amz-breadcrumb-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.amz-breadcrumb-link:hover{
+    text-decoration: underline;
+    color: var(--info);
+}
+
+.amz-breadcrumb-active{
+    font-weight: 500;
+    color: var(--info);
+}
+
+/* Links */
+.amz-link{
+    text-decoration: none;
+    font-size: 13px;
+    color: inherit;
+}
+
+.amz-link:hover{
+    text-decoration: underline;
+    color: var(--info);
+}
